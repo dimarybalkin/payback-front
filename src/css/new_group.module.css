@@ -1,0 +1,407 @@
+/* HEADER */
+
+.header {
+    height: 127px;
+
+    text-align: center;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+
+    background: #85A1C1;
+    border: 1px solid #C6CCD8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.new_group .content {
+    display: flex;
+    align-items: center;
+
+    height: 29px;
+    margin-bottom: 16px;
+    margin-left: 15px;
+}
+
+.header .titel {
+    height: 36px;
+    max-width: 259px;
+
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 1px;
+
+    margin-left: 12px;
+}
+
+.new_group .icon {
+    margin-bottom: 8px;
+}
+
+/* /.HEADER */
+
+
+
+
+/* MAIN */
+
+.main {
+    margin-top: 50px;
+}
+
+.group_options {
+    display: flex;
+
+    margin-left: 47px;
+    margin-bottom: 31px;
+}
+
+.group_avatar {
+    width: 111px;
+    height: 111px;
+    background-image: url(../../src/img/temp_new_group.jpg);
+    background-size: 111px 111px;
+}
+
+.group_titel {
+    margin-left: 32px;
+}
+
+.group_titel .titel {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 166%;
+    letter-spacing: 1px;
+    text-align: center;
+
+    margin-bottom: 15px;
+}
+
+.titel_input {
+    width: 186px;
+}
+
+.titel_input input[type=text] {
+    display: block;
+    width: 186px;
+    border: none;
+    border-bottom: 2px solid red;
+    border-radius: 0px;
+}
+
+
+
+
+
+.meeting_title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 166%;
+    letter-spacing: 1px;
+
+    margin-left: 46px;
+    margin-bottom: 10px;
+}
+
+.meeting_button button {
+    width: 348px;
+    height: 47px;
+    left: 51px;
+    top: 541px;
+    border: 0px;
+
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 14px;
+
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 330;
+    font-size: 16px;
+    line-height: 150%;
+
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+
+.group_check_debt {
+    display: flex;
+    align-items: center;
+
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.group_check_title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 1px;
+
+    margin-bottom: 5px;
+}
+
+.group_check_subtitle {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 166%;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.group_checkbox {
+    margin-left: 40px;
+}
+
+.group_invite_friend {
+  margin-left: 30px;
+}
+
+.group_invite_friend_info {
+  display: flex;
+  width: 330px;
+  height: 58px;
+  background-color: #ececec;
+  border-radius: 5px;
+
+  margin-left: 10px;
+  padding-left: 15px;
+}
+
+.group_invite_friend_ava {
+  margin: auto 0;
+  height: 40px;
+  width: 34px;
+  background-image: url(./../img/temp_Inv_ava.jpg);
+  background-size: 34px 40px;
+  border-radius: 5px;
+}
+
+.group_invite_friend_name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+
+  margin-top: 8px;
+  margin-left: 20px;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+.group_create {
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+
+.group_create button {
+  width: 348px;
+  height: 47px;
+  left: 51px;
+  top: 541px;
+  border: 0px;
+
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 14px;
+
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.15px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+
+  background: #85A1C1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  cursor: pointer;  
+}
+
+
+
+
+/* /. MAIN */
+
+
+
+/* CHECKBOX_DEBT */
+
+.checkbox_google {
+	display: inline-block;    
+	height: 28px;    
+	line-height: 28px;      
+	margin-right: 10px;       
+	position: relative;
+	vertical-align: middle;
+	font-size: 14px;
+	user-select: none;	
+}
+.checkbox_google .checkbox_google_switch {
+	display: inline-block;	
+	width: 36px;
+	height: 14px;	
+	border-radius: 20px;
+	position: relative;
+	top: 6px;			
+	vertical-align: top;
+	background: #9f9f9f;
+	transition: .2s;
+}
+.checkbox_google .checkbox_google_switch:before {
+	content: '';
+	display: inline-block;	
+	width: 20px;	
+	height: 20px;
+	position: absolute;
+	top: -3px;
+	left: -1px;
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 0 3px 1px -2px rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12);
+	transition: .15s;		
+}
+.checkbox_google input[type=checkbox] {
+	display: block;	
+	width: 0;
+	height: 0;	
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.checkbox_google input[type=checkbox]:checked + .checkbox_google_switch {
+	background: #9ABEF7;
+}
+.checkbox_google input[type=checkbox]:checked + .checkbox_google_switch:before {
+	background: #1a73e8;
+	transform:translateX(18px);
+}
+ 
+/* Hover */
+.checkbox_google input[type="checkbox"]:not(:disabled) + .checkbox_google_switch {
+	cursor: pointer;
+	border-color: rgba(0, 0, 0, .3);
+}
+ 
+/* Active/Focus */
+.checkbox_google input[type="checkbox"]:not(:disabled):active + .checkbox_google_switch:before, 
+.checkbox_google input[type="checkbox"]:not(:disabled):focus + .checkbox_google_switch:before {
+	animation: checkbox-active-on 0.5s forwards linear;
+}
+@keyframes checkbox-active-on {
+	0% {
+		box-shadow: 0 0 0 0 rgba(212,212,212, 0);
+	}
+	99% {
+		box-shadow: 0 0 0 10px rgba(212,212,212, 0.5);
+	}
+}
+ 
+.checkbox_google input[type="checkbox"]:not(:disabled):checked:active + .checkbox_google_switch:before, 
+.checkbox_google input[type="checkbox"]:not(:disabled):checked:focus + .checkbox_google_switch:before {
+	animation: checkbox-active-off 0.5s forwards linear;
+}
+@keyframes checkbox-active-off {
+	0% {
+		box-shadow: 0 0 0 0 rgba(154,190,247, 0);
+	}
+	99% {
+		box-shadow: 0 0 0 10px rgba(154,190,247, 0.5);
+	}
+}
+ 
+/* Disabled */
+.checkbox_google input[type=checkbox]:disabled + .checkbox_google_switch {
+	filter: grayscale(60%);
+	border-color: rgba(0, 0, 0, .1);
+}
+.checkbox_google input[type=checkbox]:disabled + .checkbox_google_switch:before {
+	background: #eee;
+}
+
+/* /. CHECKBOX_DEBT */
+
+
+
+
+
+
+/* CHECKBOX_INVITE */
+
+
+.custom_checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+
+  /* для элемента label, связанного с .custom_checkbox */
+  .custom_checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+
+  /* создание в label псевдоэлемента before со следующими стилями */
+  .custom_checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+
+  /* стили при наведении курсора на checkbox */
+  .custom_checkbox:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #b3d7ff;
+  }
+
+  /* стили для активного чекбокса (при нажатии на него) */
+  .custom_checkbox:not(:disabled):active+label::before {
+    background-color: #b3d7ff;
+    border-color: #b3d7ff;
+  }
+
+  /* стили для чекбокса, находящегося в фокусе */
+  .custom_checkbox:focus+label::before {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+
+  /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+  .custom_checkbox:focus:not(:checked)+label::before {
+    border-color: #80bdff;
+  }
+
+  /* стили для чекбокса, находящегося в состоянии checked */
+  .custom_checkbox:checked+label::before {
+    border-color: #0b76ef;
+    background-color: #0b76ef;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+  }
+
+  /* стили для чекбокса, находящегося в состоянии disabled */
+  .custom_checkbox:disabled+label::before {
+    background-color: #e9ecef;
+  }
+
+  .group_invite_friend_checkbox {
+    margin-bottom: 1em;
+  }
+
+
+/* /.CHECKBOX_INVITE */

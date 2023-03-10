@@ -1,0 +1,122 @@
+/* MAIN */
+
+.header {
+    height: 127px;
+
+    text-align: center;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+
+    border: 1px solid #C6CCD8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 12px;
+    margin-right: 17px;
+}
+
+.header .titel {
+    height: 36px;
+    max-width: 259px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 166%;
+
+    margin-bottom: 19px;
+    margin-left: 30px;
+}
+
+.nav .add_group {
+    height: 50px;
+    width: 50px;
+    background-image: url(./../img/header_friends.png);
+    background-size: 50px 50px;
+
+    margin-right: 21px;
+}
+
+.nav .notifications {
+    height: 40px;
+    width: 40px;
+    background-image: url(./../img/header_notifications.png);
+    background-size: 40px 40px;
+}
+
+
+
+.user_groups .logo {
+    width: 260px;
+    height: 242px;
+    background-image: url(./../img/logo.jpg);
+    background-size: 260px 242px;
+
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+
+.user_groups .hello {
+    margin-top: 79px;
+    margin-left: 54px;
+    margin-bottom: 45px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 166%;
+    letter-spacing: 1px;
+}
+
+.user_groups .desc {
+    margin: 0 auto;
+
+    text-align: center;
+    width: 320px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 1px;
+}
+
+.user_groups .button__icon {
+    height: 35px;
+    width: 35px;
+    background-image: url(./../img/header_friends.png);
+    background-size: 35px 35px;
+
+    margin-left: 28px;
+}
+
+.user_groups .button__title {
+    margin-left: 5px;
+}
+
+.user_groups .content a {
+    color: #44586A;
+
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.user_groups .group__button {
+    display: flex;
+    align-items: center;
+    
+    width: 220px;
+    height: 49px;
+    margin: 0 auto;
+
+    background: #FFFFFF;
+    border: 1px solid #44586A;
+    border-radius: 5px;
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/* /.MAIN */

@@ -1,0 +1,123 @@
+.add_friend,
+.add_friend_by_number {
+    padding-top: 50px;
+    width: 355px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+}
+
+.back_button {
+    width: 23px;
+    height: 23px;
+    background-image: url("./../img/back_arrow.png");
+    background-size: 23px 23px;
+}
+
+.img {
+    width: 187px;
+    height: 194px;
+
+    background-image: url("./../img/temp_Inv_ava.jpg");
+    background-size: 187px 194px;
+
+    border-radius: 4px;
+    margin-left: 61px;
+}
+
+.desc {
+    text-align: center;
+}
+
+.desc .title {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+
+    margin-top: 28px;
+}
+
+.desc .subtitle {
+    font-size: 19px;
+    line-height: 120%;
+
+    margin-top: 28px;
+    margin-bottom: 46px;
+}
+
+.desc .qr_code {
+    width: 193px;
+    height: 193px;
+    background-image: url(/src/img/temp_qr.jpg);
+    background-size: 193px 193px;
+
+    margin: 0 auto;
+    margin-bottom: 124px;
+}
+
+.add_by_number {
+    margin-bottom: 67px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.add_by_number button {
+    width: 348px;
+    height: 47px;
+    left: 51px;
+    top: 541px;
+    border: 0px;
+
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 14px;
+
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.15px;
+    font-weight: medium;
+    font-size: 20px;
+    line-height: 150%;
+
+    color: #fff;
+    background: #85A1C1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+
+.add_friend_by_number .title {
+    margin-bottom: 78px;
+}
+
+.input_number {
+    margin-top: 100px;
+    margin-bottom: 160px;
+}
+
+.add_friend_by_number input[placeholder] {
+    width: 328px;
+    margin: 0 auto;
+
+    text-align: center;
+    color: #6B6C6E;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.15px;
+    
+    border-radius: 5px;
+    border-color: #44586A;
+}
+
+
+
+
+
