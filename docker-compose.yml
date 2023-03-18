@@ -1,0 +1,7 @@
+version: "2"
+services: 
+  efreksium:
+    container_name: "efreksium"
+    build: "."
+    ports: 
+      - "3000:3000"

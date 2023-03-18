@@ -1,0 +1,95 @@
+/* HEADER */
+
+.header {
+    height: 127px;
+
+    text-align: center;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+
+    background: #85A1C1;
+    border: 1px solid #C6CCD8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.profileSub .content {
+    display: flex;
+    align-items: center;
+
+    height: 29px;
+    margin-bottom: 16px;
+    margin-left: 15px;
+}
+
+.header .titel {
+    height: 29px;
+    max-width: 259px;
+
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 1px;
+
+    margin-left: 12px;
+}
+
+.profileSub .icon {
+    margin-bottom: 8px;
+}
+
+/* /.HEADER */
+
+
+
+/* MAIN */
+
+.main {
+    width: 328px;
+    margin: 0 auto;
+}
+
+.desc {
+    text-align: center;
+    margin-top: 62px;
+    margin-bottom: 40px;
+}
+
+.title {
+    line-height: 166%;
+    letter-spacing: 1px;
+    font-size: 24px;
+
+    margin-bottom: 37px;
+}
+
+.logo {
+    position: relative;
+
+    font-family:'Arkhip';
+    font-size: 36px;
+    font-weight: 400;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: 2.5px;
+    
+    margin-bottom: 40px;
+}
+
+.logo::after {
+    position: absolute;
+    content: "pro";
+
+    top: 35px;
+    right: 11px;
+    font-size: 20px;
+    letter-spacing: 1px; 
+}
+
+.subtitle {
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 1px;
+}
+
+/* /.MAIN */

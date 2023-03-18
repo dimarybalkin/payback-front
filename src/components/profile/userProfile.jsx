@@ -61,10 +61,12 @@ const UserProfile = ({userName}) => {
                 </div>
 
                 <div className={style.option}>
-                    <div className={style.desc}>
-                        <div className={style.title}>Подписка</div>
-                        <div className={style.subtitle}>премиум доступ к сервису</div>
-                    </div>
+                    <Link to="/profile/profileSub">
+                        <div className={style.desc}>
+                            <div className={style.title}>Подписка</div>
+                            <div className={style.subtitle}>премиум доступ к сервису</div>
+                        </div>
+                    </Link>
                 </div>
 
                 <div className={style.option}>

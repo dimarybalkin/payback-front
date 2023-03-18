@@ -52,6 +52,10 @@
     margin-bottom: 132px;
 }
 
+.option a {
+	color: #000;
+}
+
 .userProfile .option {
     padding: 16px 39px;
 
@@ -61,6 +65,7 @@
 .option__checkbox {
     display: flex;
     justify-content: space-between;
+	align-items: center;
 }
 
 .title {

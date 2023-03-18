@@ -9,6 +9,7 @@ import Friends from "./friends.jsx";
 import Add_friend from "./add_friend.jsx";
 import Add_friend_by_number from "./add_friend_by_number.jsx";
 import UserProfile from "./userProfile.jsx";
+import ProfileSub from "./profileSub.jsx";
 
 const Profile = ({ isLoggedIn, setIsLoggedIn, userName }) => {
     const navigate = useNavigate();
@@ -25,6 +26,7 @@ const Profile = ({ isLoggedIn, setIsLoggedIn, userName }) => {
                 <Route path="add_friend_by_number" element={<Add_friend_by_number userName={userName}/>} />
 
                 <Route path="userProfile" element={<UserProfile userName={userName}/>} />
+                <Route path="profileSub" element={<ProfileSub />} />
             </Routes>
             
             <Footer />
